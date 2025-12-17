@@ -1,0 +1,13 @@
+@mixin display($items:center, $justify:space-between, $gap:0px){
+    display: flex;
+    align-items: $items;
+    justify-content: $justify;
+    gap: $gap;
+}
+@mixin textStyle($CLR, $FS, $FW, $LH, $MB:0px){
+    color: $CLR;
+    font-size: $FS;
+    font-weight: $FW;
+    line-height: $LH;
+    margin-bottom: $MB;
+}

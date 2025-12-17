@@ -4,4 +4,22 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    font-family: 'Barlow Condensed';
+    
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 60px;
+    background-image: url(../images/moon-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+@media (max-width:1060px), (max-width: 800px){
+    body{
+        background-position: left top;
+        padding-bottom: 50px;
+        
+    }
 }
